@@ -1,0 +1,13 @@
+.block {
+  content: " ";
+  width: 8px;
+  height: 8px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.block:hover {
+  opacity: 0.8;
+}

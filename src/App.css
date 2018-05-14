@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: rgb(0, 165, 165);
+  background: -webkit-linear-gradient(-45deg, rgb(0, 85, 85), rgb(0, 255, 213));
+  background: -o-linear-gradient(-45deg, rgb(0, 85, 85), rgb(0, 255, 213));
+  background: -moz-linear-gradient(-45deg, rgb(0, 85, 85), rgb(0, 255, 213));
+  background: linear-gradient(-45deg, #408AF8, #6772E5);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Raleway';
+}
+
+.center {
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding:15px;
+  margin-top: -2%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.hm {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.hm a {
+  opacity: 0.2;
+  text-decoration: none;
+  color: white;
+  transition: all 500ms ease;
+}
+
+.hm a:hover {
+  opacity: 0.8;
+}
